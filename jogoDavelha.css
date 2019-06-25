@@ -1,8 +1,9 @@
 #jogo {
-    width: 700px;
-    height: 601px;
-    border: solid 3px;
-    margin-left: 170px;
+    width: 607px;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 700px;
+    
 }
 .linha {
     height: 200px;
@@ -14,5 +15,15 @@
     height: 100%;
     border-right: solid 1px;
     float: left;
-    padding: 100px;
+    padding: 9%;
+    font-size: 70px;
+    text-align: center;
+        
 }
+.casaDireita {
+    padding-top: 10%;
+    padding-left: 65%;
+    font-size: 70px;
+    text-align: center;
+}
+
