@@ -10,25 +10,41 @@
 </head>
 <body>
 
+    <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+            <a href="#">Jogo da Memória</a>
+            <a href="#">Jogo da Velha</a>
+            
+        </div>
+
+    </div>
+
+   <form>
+       <label>Player1:</label>
+       <input type="text" id="player1" value="" class="player" disabled><br/>
+       <label>Player2:</label>
+       <input type="text" id="player2" value="" class="player" disabled><br/>
+   </form>
     
     <div id="jogo">
 
         <div class="linha">
-            <div class="casa" id="casa1" onclick="casa1()"><p>Casa</p></div>
-            <div class="casa" id="casa2" onclick="casa2()"><p>Casa</p></div>
-            <div class="casaDireita" id="casa3" onclick="casa3()"><p>Casa</p></div>
+            <div class="casa" id="casa1" onclick="casa1()"><p>Casa1</p></div>
+            <div class="casa" id="casa2" onclick="casa2()"><p>Casa2</p></div>
+            <div class="casaDireita" id="casa3" onclick="casa3()"><p>Casa3</p></div>
         </div>
 
-        <div class="linha">
-                <div class="casa" id="casa4" onclick="casa4()"><p>Casa</p></div>
-                <div class="casa" id="casa5" onclick="casa5()"><p>Casa</p></div>
-                <div class="casaDireita" id="casa6" onclick="casa6()"><p>Casa</p></div>
+        <div class="linhaMeio">
+                <div class="casa" id="casa4" onclick="casa4()"><p>Casa4</p></div>
+                <div class="casa" id="casa5" onclick="casa5()"><p>Casa5</p></div>
+                <div class="casaDireita" id="casa6" onclick="casa6()"><p>Casa6</p></div>
         </div>
 
         <div class="linhaBottom">
-                <div class="casa" id="casa7" onclick="casa7()"><p>Casa</p></div>
-                <div class="casa" id="casa8" onclick="casa8()"><p>Casa</p></div>
-                <div class="casaDireita" id="casa9" onclick="casa9()"><p>Casa</p></div>
+                <div class="casa" id="casa7" onclick="casa7()"><p>Casa7</p></div>
+                <div class="casa" id="casa8" onclick="casa8()"><p>Casa8</p></div>
+                <div class="casaDireita" id="casa9" onclick="casa9()"><p>Casa9</p></div>
         </div>
 
     </div>

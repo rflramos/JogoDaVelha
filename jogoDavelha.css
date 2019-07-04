@@ -1,29 +1,103 @@
 #jogo {
-    width: 607px;
-    height: 100px;
-    margin-top: 300px;
-    margin-left: 700px;
-    
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;
 }
+
 .linha {
-    height: 200px;
+    height: 50px;
+    width:130px;
     border-bottom: solid 1px;
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.linhaMeio {  
+    height: 50px;
+    width: 130px;
+    border-bottom: solid 1px;
+    box-sizing: border-box;
+    margin-left: 70px;
 }
 
 .casa {
-    width: 200px;
-    height: 100%;
+    width: 40px;
+    height: 50px;
     border-right: solid 1px;
     float: left;
-    padding: 9%;
-    font-size: 70px;
+    font-size: 10px;
     text-align: center;
+    padding-top: 14%;
+    box-sizing: border-box;
+    
         
 }
 .casaDireita {
-    padding-top: 10%;
-    padding-left: 65%;
-    font-size: 70px;
+    width: 40px;
+    height: 50px;
+    float: left;
+    font-size: 10px;
     text-align: center;
+    padding-top: 14%;
+    box-sizing: border-box;
+    
 }
 
+.linhaBottom {
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    margin-left: 70px;
+    
+}
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border:none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2980D9;
+}
+
+.player{
+    border: none;
+    background-color: #ddd;
+    font-size: 16px;
+}

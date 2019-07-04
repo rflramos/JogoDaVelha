@@ -4,14 +4,21 @@ var simbolo;
 var player1 = "X";
 var player2 = "O";
 
+var nomePlayer1 = prompt("Nome Player 1: ");
+var nomePlayer2 = prompt("Nome Player 2: ");
+
 var numero = Math.floor(Math.random() * 2);
 
 if (numero == 0){
-    alert("Player 1 começa o jogo");
+    alert(nomePlayer1 + " começa o jogo");
+    
 } else {
-    alert("Player 2 começa o jogo");
+    alert(nomePlayer2 + " começa o jogo");
+    
 }
 
+document.getElementById("player1").value=nomePlayer1;
+document.getElementById("player2").value=nomePlayer2;
 
 
 function casa1 () {
